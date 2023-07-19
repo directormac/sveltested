@@ -2,3 +2,4 @@ packages:
   - "packages/*"
   - "packages/docs"
   - "packages/onlysvelte"
+  - "packages/withkit"

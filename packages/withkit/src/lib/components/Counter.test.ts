@@ -12,7 +12,7 @@ describe('Test Counter.svelte', async () => {
 	beforeEach(() => {
 		render(Counter);
 		increaseButton = screen.getByLabelText('Increment Button');
-		decreaseButton = screen.getByLabelText('Decrease Button');
+		decreaseButton = screen.getByLabelText('Decrement Button');
 		resetButton = screen.getByLabelText('Reset Button');
 		count = screen.getByLabelText('Count');
 	});

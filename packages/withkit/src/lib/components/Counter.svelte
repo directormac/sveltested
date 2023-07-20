@@ -15,7 +15,7 @@
 	<p aria-label="Count">{count}</p>
 	<section>
 		<button aria-label="Increment Button" on:click={increment}> Increment </button>
-		<button aria-label="Decrease Button" on:click={decrement}> Decrement </button>
+		<button aria-label="Decrement Button" on:click={decrement}> Decrement </button>
 		<button aria-label="Reset Button" on:click={reset}> Reset </button>
 	</section>
 </div>
